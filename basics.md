@@ -2,9 +2,24 @@ App function is a React Component.
 
 App component will return to JSX and handle event from user. 
 
+---------------------------------------------------------
+JSX
+
 JSX tells to React what we wanna show on screen.
 
 JSX Element will tell react to show either ---1.html element --> OR 2. react component 
+
+JSX VS HTML:
+1.inline styling difference
+
+ <div style="background-color: red"></div>
+ jsx using javascript object to do inline style
+ 
+ return <div style={{ backgroundColor:'red' }}>this is the app!</div>;
+
+
+2.class vs className
+3.jsx can use javascript variables
 
 ---------------------------------------------------------
 In index.js :
