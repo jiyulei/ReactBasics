@@ -34,3 +34,22 @@ call app function get back jsx, returns at html, find root and then put it into 
 useState : 1.function working with state system in React
            2.keep track of data change
            3.make react update the html on screen
+
+------------------------------------------------------------
+
+Lifecycle:
+
+constructor        --> one time setup but data setup recommended on componentDidMount
+render
+(element show on screen)
+componentDidMount  -----> good place to do data loading, only geting invoked one time
+(waiting for update)
+
+componentDidUpdate  ---> good place to do more data loading when state/props change
+(waiting component is no longer shown)
+
+componentWillUnmount   ---> good place to do clean up
+
+
+
+others rarely use: shouldComponentUpdate, getDerivedStateFromProps,getSnapshotBeforeUpdate
